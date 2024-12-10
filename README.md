@@ -1,4 +1,4 @@
-# Super Mario World Clone - Game Engine
+# 2D Platformer - Game Engine
 
 A modern C++ game engine implementation of a Super Mario World-style platformer, featuring advanced physics, enemy AI, and power-up systems.
 
