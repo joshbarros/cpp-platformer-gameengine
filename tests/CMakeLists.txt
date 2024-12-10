@@ -7,8 +7,10 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(googletest)
 
 set(TEST_SOURCES
-    core/TimerTests.cpp
     core/WindowTests.cpp
+    core/InputTests.cpp
+    core/TimerTests.cpp
+    core/ResourceManagerTests.cpp
 )
 
 add_executable(UnitTests ${TEST_SOURCES})

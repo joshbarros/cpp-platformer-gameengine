@@ -37,6 +37,7 @@ set(SOURCES
     src/core/Logger.cpp
     src/core/Timer.cpp
     src/core/Input.cpp
+    src/core/ResourceManager.cpp
     src/utils/Debug.cpp
 )
 
@@ -47,6 +48,8 @@ set(HEADERS
     include/core/Logger.hpp
     include/core/Timer.hpp
     include/core/Input.hpp
+    include/core/Resource.hpp
+    include/core/ResourceManager.hpp
     include/utils/Debug.hpp
 )
 

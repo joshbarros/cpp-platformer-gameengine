@@ -54,7 +54,7 @@ cmake --build .
 
 ## Project Status
 
-### Phase 1: Core Engine Setup (In Progress)
+### Phase 1: Core Engine Setup (Completed)
 - [x] Project Setup
   - [x] Initialize CMake project structure
   - [x] Configure build system
@@ -75,10 +75,11 @@ cmake --build .
   - [x] Mouse input handling
   - [x] Input mapping system
   - [ ] Gamepad support (Coming soon)
-- [ ] Resource Management
-  - [ ] Asset loading system
-  - [ ] Resource caching
-  - [ ] Memory management system
+- [x] Resource Management
+  - [x] Resource loading system
+  - [x] Resource caching
+  - [x] Memory management
+  - [x] Error handling
 
 ### Phase 2: Rendering System (Next Up)
 - [ ] Basic Rendering

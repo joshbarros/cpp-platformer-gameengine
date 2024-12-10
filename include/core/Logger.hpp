@@ -2,6 +2,7 @@
 
 #include <string>
 #include <sstream>
+#include <iostream>
 
 enum class LogLevel {
     Trace,
@@ -21,6 +22,18 @@ public:
         std::stringstream ss;
         FormatString(ss, fmt, std::forward<Args>(args)...);
         LogMessage(level, ss.str());
+    }
+    
+    static void Info(const std::string& message) {
+        Log(LogLevel::Info, message);
+    }
+    
+    static void Warn(const std::string& message) {
+        Log(LogLevel::Warning, message);
+    }
+    
+    static void Error(const std::string& message) {
+        Log(LogLevel::Error, message);
     }
     
 private:
