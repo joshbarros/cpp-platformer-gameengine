@@ -83,8 +83,8 @@ cmake --build .
 
 ### Phase 2: Rendering System (Next Up)
 - [ ] Basic Rendering
-  - [ ] Shader system
-  - [ ] Texture loading
+  - [x] Shader system
+  - [x] Texture loading (stb_image)
   - [ ] Sprite rendering
   - [ ] Batch rendering
 - [ ] Advanced Rendering

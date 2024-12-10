@@ -168,7 +168,8 @@ void Engine::FixedUpdate(float fixedDeltaTime) {
 }
 
 void Engine::Render() {
-    m_Window->Clear();
+    // Clear with a nice sky blue color
+    m_Window->Clear(0.4f, 0.6f, 1.0f, 1.0f);
     m_Window->SwapBuffers();
 }
 

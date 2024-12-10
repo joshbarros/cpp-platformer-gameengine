@@ -46,7 +46,6 @@ install_manifest.txt
 *.dSYM/
 
 # Dependencies
-external/*/
 !external/README.md
 
 # Project specific

@@ -47,6 +47,14 @@ bool Window::Init(const Properties& props) {
     // Make OpenGL context current
     glfwMakeContextCurrent(m_Window);
     
+    // Initialize GLAD
+    if (!gladLoadGLLoader((GLADloadproc)glfwGetProcAddress)) {
+        LOG_ERROR("Failed to initialize GLAD");
+        glfwDestroyWindow(m_Window);
+        glfwTerminate();
+        return false;
+    }
+    
     // Set VSync
     glfwSwapInterval(m_Properties.VSync ? 1 : 0);
     
